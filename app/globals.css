@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&family=Pathway+Extreme:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Karantina&family=Pathway+Extreme:wght@600&display=swap');
 *{
   margin:0px;
-  background-color: black;
+  background-color:#0E0E15;
+  color:white;
+}
+.Text{
+    font-family:"Kanit";
 }
 .col{
   float:left;
@@ -25,7 +31,7 @@
 
 }
 .row3_text{
-  font-family:"Kanit";
+  font-family:'Kanit', sans-serif;;
   line-height:150%;
   font-size:20px;
 
@@ -51,15 +57,15 @@
   border:1px solid red;
 }
 .col2_text{
-  font-size:22px;
-  font-family:"Karantina";
+  font-size:40px;
+  font-family: 'Karantina', cursive;
   line-height:48px;
 }
 .col3{
   width:56px;
   height:30px;
   font-size: 20px;
-  font-family:"Kanit";
+  font-family: 'Kanit', sans-serif;
   line-height:150%;
   border:1px solid red;
   margin-left :743px;
@@ -73,16 +79,17 @@
   margin-top:21px;
 }
 .col4_text{
-  font-size:20px;
-  font-family:"Kanit";
+  font-size:19px;
+  font-family: 'Kanit', sans-serif;
   line-height:150%;
 }
 .row4{
-  width:954px;
+  width:960px;
   height: 252px;
   border:2px solid red;
   margin-left:160px;
   margin-top:40px;
+  background-color:rgba(39, 39, 52, 1);
 }
 .row5{
   height:171px;
@@ -109,8 +116,8 @@
   background-color:#272734;
 }
 .Col6_text1{
-  font-size:16px;
-  font-family:"Karantina";
+  font-size:26px;
+  font-family: 'Karantina', cursive;
   white-space:nowrap;
   color:white;
   background-color:#272734;
@@ -119,3 +126,50 @@
     color:red;
     background-color:#272734;
 }
+.row4_col1{
+    width:200px;
+    height:250px;
+    border:2px solid red;
+}
+.poster-path{
+    height:250px;
+    width:200px;
+}
+.row4_col2{
+    width:719px;
+    height:250px;
+    border:2px solid red;
+    margin-left:33px;  
+}
+.col2text1{
+    font-size:36px;
+    line-height:48px;
+    white-space:nowrap;
+}
+.col2text2{
+    font-size:12px;
+    line-height:24px;
+}
+.col2text{
+    width:600px;
+    height:80px;
+    border:1px solid red;
+}
+.col2text3{
+    font-size:12px;
+    font-family: 'Kanit', sans-serif;
+    line-height:130%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
