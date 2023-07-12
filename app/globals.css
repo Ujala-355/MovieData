@@ -14,12 +14,10 @@
 .row1{
   height:72px;
   width:1200px;
-  border:2px solid rgb(63, 35, 187);
   margin-top:28px;
 }
 .row2{
   height:0px;
-  border: 1px solid red;
   margin-top: 68px;
 }
 .row3{
@@ -27,14 +25,11 @@
   height:30px;
   margin-top:68px;
   margin-left:160px;
-  border: 1px solid red;
-
 }
 .row3_text{
   font-family:'Kanit', sans-serif;;
   line-height:150%;
   font-size:20px;
-
 }
 .text{
   color:var(--text,#F3F3F3);
@@ -42,7 +37,6 @@
 .col1{
   width:72px;
   height:72px;
-  border:1px solid red;
   margin-left:80px;
   float:left;
 }
@@ -54,7 +48,6 @@
   height:48px;
   margin-left:5px;
   margin-top:12px;
-  border:1px solid red;
 }
 .col2_text{
   font-size:40px;
@@ -67,14 +60,12 @@
   font-size: 20px;
   font-family: 'Kanit', sans-serif;
   line-height:150%;
-  border:1px solid red;
   margin-left :743px;
   margin-top:21px;
 }
 .col4{
   width:94px;
   height: 30px;
-  border:2px solid red;
   margin-left:36px;
   margin-top:21px;
 }
@@ -87,9 +78,8 @@
   width:960px;
   height: 252px;
   border:2px solid red;
-  margin-left:160px;
+  margin:auto;
   margin-top:40px;
-  background-color:rgba(39, 39, 52, 1);
 }
 .row5{
   height:171px;
@@ -141,6 +131,10 @@
     border:2px solid red;
     margin-left:33px;  
 }
+.line{
+    width:956px;
+    border:3px solid red;
+}
 .col2text1{
     font-size:36px;
     line-height:48px;
@@ -152,7 +146,6 @@
 }
 .col2text{
     width:600px;
-    height:80px;
     border:1px solid red;
 }
 .col2text3{
@@ -160,12 +153,25 @@
     font-family: 'Kanit', sans-serif;
     line-height:130%;
 }
-
-
-
-
-
-
+.line{
+    height:0px;
+    width:960px;
+    border: 2px solid red;
+    margin:auto;
+    margin-top:24px;
+}
+.col3_rating_button{
+    width:719px;
+    height:40px;
+    border:2px solid blue;
+    margin-top:78px;
+}
+.delete_button{
+    float:right;
+    width:26px;
+    height:29px;
+    margin-top:3px;
+}
 
 
 
