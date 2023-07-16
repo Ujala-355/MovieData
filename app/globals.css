@@ -145,12 +145,13 @@
     line-height:24px;
 }
 .col2text{
-    width:600px;
-    border:1px solid red;
+   width:600px;
+   height:70px;
+   border:1px solid red;
 }
 .col2text3{
     font-size:12px;
-    font-family: 'Kanit', sans-serif;
+    font-family:'Kanit', sans-serif;
     line-height:130%;
 }
 .line{
@@ -160,20 +161,32 @@
     margin:auto;
     margin-top:24px;
 }
-.col3_rating_button{
+.col3_rating_box{
     width:719px;
     height:40px;
     border:2px solid blue;
-    margin-top:78px;
+    margin-top:65px;
 }
 .delete_button{
     float:right;
     width:26px;
     height:29px;
     margin-top:3px;
+    margin-right:3px; 
 }
-
-
+.like_icon{
+    height:32px;
+    margin-top:3px;
+}
+.rating{
+    margin: 5px;
+    position: relative;
+    bottom: 10px;
+}
+.dislike_icon{
+    height:32px;
+    margin-top:3px;
+}
 
 
 
