@@ -174,18 +174,30 @@
     margin-top:3px;
     margin-right:3px; 
 }
+/*.LikeDislike{
+    width:100px;
+    height:40px;
+    border:2px solid red;
+    
+}
+*/
 .like_icon{
-    height:32px;
-    margin-top:3px;
+    height:30px;
+    position:relative;
+    bottom:40px;
+    left:5px;
 }
 .rating{
     margin: 5px;
     position: relative;
-    bottom: 10px;
+    bottom: 30px;
+    left:5px;
 }
 .dislike_icon{
-    height:32px;
-    margin-top:3px;
+    height:30px;
+    position:relative;
+    bottom:40px;
+    left:5px;
 }
 
 
