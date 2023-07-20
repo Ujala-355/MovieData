@@ -15,6 +15,7 @@ const Header=()=>{
                     <span className="text col4_text">Add Movie</span>
                 </div>
             </div>
+            <div className="line"></div>
             <div className="row2"></div>
             <div className="row3">
                 <span className="text row3_text">Watch</span>

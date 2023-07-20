@@ -71,7 +71,6 @@ const Page = () => {
               handleLike={() => handleLike(movie.id)}
               handleDislike={() => handleDislike(movie.id)}
               voteCount={voteCount[movie.id]}
-              
             />
           </div>
         ))
@@ -79,12 +78,11 @@ const Page = () => {
         <p>Loading...</p>
       )}
       <Movie_text/>
-      {showForm && < AddmovieForm/>}
+      {showForm &&< AddmovieForm/>}
       <NewMovie onClick={handleButtonClick}/>
       <Footer />
     </div>
   );
 };
-
 export default Page;
 

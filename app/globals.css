@@ -77,13 +77,11 @@
 .row4{
   width:960px;
   height: 252px;
-  border:2px solid red;
   margin:auto;
   margin-top:40px;
 }
 .row8{
   height:171px;
-  border:2px solid red;
   margin-top:181px;
   background-color: var(--bg-secondary, #272734);
 }
@@ -92,7 +90,6 @@
   height:32px;
   margin-left:160px;
   margin-top:80px;
-  border:2px solid red;
 }
 .col8_img{
     background-color:#272734;
@@ -101,7 +98,6 @@
   width:143px;
   height:28px;
   margin-top:80px;
-  border:2px solid red;
   margin-left:5px;
   background-color:#272734;
 }
@@ -119,7 +115,6 @@
 .row4_col1{
     width:200px;
     height:250px;
-    border:2px solid red;
 }
 .poster-path{
     height:250px;
@@ -128,12 +123,10 @@
 .row4_col2{
     width:719px;
     height:250px;
-    border:2px solid red;
     margin-left:33px;  
 }
 .line{
-    width:956px;
-    border:3px solid red;
+    border:1px solid red;
 }
 .col2text1{
     font-size:36px;
@@ -147,15 +140,14 @@
 .col2text{
    width:600px;
    height:70px;
-   border:1px solid red;
+   margin-top:5px;
 }
 .col2text3{
     font-size:12px;
     font-family:'Kanit', sans-serif;
     line-height:130%;
 }
-.line{
-    height:0px;
+.line1{
     width:960px;
     border:2px solid #272734;
     margin:auto;
@@ -164,7 +156,6 @@
 .col3_rating_box{
     width:719px;
     height:40px;
-    border:2px solid blue;
     margin-top:65px;
 }
 .delete_button{
@@ -198,13 +189,12 @@
     height:30px;
     position:relative;
     bottom:125px;
-    left:75px;
+    left:70px;
     border:2px solid #0E0E15;
 }
 .row5{
     width:156px;
     height:30px;
-    border:2px solid blue;
     margin-left:160px;
     margin-top:80px;
     font-size:20px;
@@ -216,29 +206,37 @@
      margin-left:160px;
      font-size:12px;
      line-height:130%;
-     border:2px solid red;
 }
 .row7{
     width:197px;
     height:52px;
-    border:2px solid red;
     margin-left:160px;
     margin-top:28px;
     cursor:pointer;
+    background:#F85146;
 }
-.row7_text1{
+.row7_box1{
     width:96px;
     height:20px;
-    font-size:20px;
-    line-height:100%;
     margin-top:13px;
     margin-left:24px;
+    background:#F85146;
+}
+.row7_text1{
+    background:red;
+    font-size:20px;
+    line-height:100%;
+    background:#F85146;
 }
 .row7_img{
     width:40px;
     height:40px;
     margin-top:6px;
     margin-left:13px;
+}
+.aadimg{
+    height:40px;
+    background:#F85146;
 }
 .addmovie_Container{
     width:960px;
@@ -252,7 +250,6 @@
     width:510px;
     height:44px;
     background-color:#272734;
-    border:2px solid red;
     margin-left:64px;
 }
 .addText1{
@@ -260,10 +257,21 @@
     line-height: 100%; 
     background-color:#272734;
 }
+.addmovierow2{
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    position:relative;
+    left:850px;
+    bottom:40px;
+}
+.multiply_icon{
+    height:40px;
+    background:#272734;
+}
 .movie_input{
     width:352px;
     height:68px;
-    border:2px solid red;
     margin-left:64px;
     margin-top:70px; 
     background-color:#272734;
@@ -271,7 +279,6 @@
 .inputText{
     width:138px;
     height:20px;
-    border:2px solid red;
 }
 .Text1{
     font-size:20px;
@@ -290,9 +297,127 @@
     float:right;
     position:relative;
     bottom:25px;
+    right:10px;
     background-color:#5E5E75;
-    
 }
+.addmovierow3{
+    width:303px;
+    height:68px;
+    margin-left:64px;
+    margin-top:20px;
+    background:#272734;  
+}
+.input_Hours{
+    width:90px;
+    height:40px;
+    background-color:#5E5E75;
+}
+.hours{
+    margin-top:10px;
+    margin-left:5px;
+}
+.input_min{
+    margin-left:12px;
+}
+.genre_box1{
+    width:111px;
+    height:20px;
+    margin-left:64px;
+    margin-top:20px;
+}
+.genre_box2{
+    width:197px;
+    height:16px;
+    margin-left:64px;
+    margin-top:5px;
+}
+.genre_text{ 
+    font-size:16px;
+    line-height:100%;
+    background:#272734;
+}
+.check_box{
+    width:129px;
+    height:172px;
+    background:#272734;
+    margin-left:80px;
+    margin-top:20px;
+}
+.container{
+    float:left;
+    background:#272734;
+}
+.des_box{
+    width:103px;
+    height:20px;
+    margin-left:64px;
+    margin-top:30px;
+}
+.input_Dis{
+    width:613px;
+    height:171px;
+    margin-left:64px;
+    margin-top:5px;
+    background-color:#5E5E75;
+}
+.checkbox{
+    width:15px;
+    height:15px;
+    margin-top:5px;
+    background:#272734;
+}
+.checkmark_text{
+    font-size:16px;
+    line-height:100%;
+    margin-left:10px;
+    background:#272734;
+}
+.uptext{
+    width:205px;
+    height:20px;
+    margin-left:64px;
+    margin-top:30px;
+}
+.upBox{
+    width:129px;
+    height:40px;
+    border-radius: 50px;
+    margin-left:64px;
+    margin-top:20px;
+    background:#272734;
+    border:1px solid #F85146;
+}
+.upBoxtext{
+    width:65px;
+    height:20px;
+    margin:auto; 
+    margin-top:8px;
+    background:#272734;
+}
+.addbox{
+    width:190px;
+    height:64px;
+    margin-left:64px;
+    margin-top:40px;
+    background: #F85146;
+    border:1px solid #F85146;
+}
+.addtext{
+    width:94px;
+    height:20px;
+    margin:auto;
+    margin-top:23px;
+}
+.addtext1{
+   background: #F85146;
+}
+
+
+
+
+
+
+
 
 
 

@@ -22,8 +22,7 @@ function Movie_row({ movie, onDelete, handleLike, handleDislike, voteCount }) {
           </>
         </div>
       </div>
-      <div className="line"></div>
-      
+      <div className="line1"></div>
     </>
   )
 }
