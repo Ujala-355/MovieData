@@ -265,8 +265,9 @@
     left:850px;
     bottom:40px;
 }
-.multiply_icon{
+.cross_icon{
     height:40px;
+    cursor:pointer;
     background:#272734;
 }
 .movie_input{
@@ -364,6 +365,7 @@
     width:15px;
     height:15px;
     margin-top:5px;
+    border: 2px solid red;
     background:#272734;
 }
 .checkmark_text{
@@ -400,13 +402,8 @@
     margin-left:64px;
     margin-top:40px;
     background: #F85146;
+    cursor:pointer;
     border:1px solid #F85146;
-}
-.addtext{
-    width:94px;
-    height:20px;
-    margin:auto;
-    margin-top:23px;
 }
 .addtext1{
    background: #F85146;

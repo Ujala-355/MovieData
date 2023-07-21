@@ -13,7 +13,7 @@ const Page = () => {
   const [voteCount, setVoteCount] = useState({});
   
   const handleButtonClick=()=>{
-    setShowForm(true);
+      setShowForm(!showForm);
   }
   const handleLike=(id)=>{
     const Votes={...voteCount}
@@ -28,10 +28,10 @@ const Page = () => {
   const handleDislike=(id)=>{
       const Votes={...voteCount}
       if (Votes[id]===undefined){
-        Votes[id]=-1
+          Votes[id]=-1
      }
      else {
-        Votes[id]-=1
+         Votes[id]-=1
      }
       setVoteCount(Votes);
   };
@@ -55,7 +55,7 @@ const Page = () => {
   }, []);
 
   const handleDeleteMovie = (movieId) => {
-    setData((prevData) => prevData.filter((movie) => movie.id !== movieId));
+      setData((prevData) => prevData.filter((movie) => movie.id !== movieId));
   };
 
   
@@ -78,8 +78,7 @@ const Page = () => {
         <p>Loading...</p>
       )}
       <Movie_text/>
-      {showForm &&< AddmovieForm/>}
-      <NewMovie onClick={handleButtonClick}/>
+      {showForm?<AddmovieForm deleteAddMovieForm={handleButtonClick}/>:<NewMovie onClick={handleButtonClick}/>}
       <Footer />
     </div>
   );

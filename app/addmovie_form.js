@@ -1,12 +1,12 @@
-const AddmovieForm=()=>{
+const AddmovieForm=({deleteAddMovieForm})=>{
     return(
         <>
         <div className="addmovie_Container">
             <div className="addmovierow1">
                 <p className="addText1">Fill this form to add Movie</p>
             </div>
-            <div className="addmovierow2">
-                <img className="multiply_icon" src="Frame 96.svg" alt="img"/>
+            <div className="addmovierow2" onClick={deleteAddMovieForm} >
+                <img className="cross_icon" src="Frame 96.svg" alt="img"/>
             </div>
             
             <div className="movie_input">
@@ -88,11 +88,9 @@ const AddmovieForm=()=>{
                     <p className="Text1">Upload</p>
                 </div>
            </div>
-           <div className="addbox">
-                <div className="addtext">
+           <button type="submit" className="addbox">
                     <p className="Text1 addtext1">Add Movie</p>
-                </div>
-           </div>
+           </button>
         </div>
         </>
     )
